@@ -1,6 +1,6 @@
 {
     "name": "newklio-library-esp",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "newklio-library-esp is designed to connect espresiff based devices to newklio cloud",
     "keywords": "esp8266, newklioEsp8266, ticker, wifiSetup, sources",
     "repository": {
