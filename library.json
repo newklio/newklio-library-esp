@@ -11,17 +11,17 @@
         {
             "name": "Aman Singh",
             "email": "singhaman11415@gmail.com",
-            "url": "www.newklio.com",
+            "url": "https://newklio.com",
             "maintainer": true
         },
         {
             "name": "Deepak Yadu",
             "email": "deepakyadu404@gmail.com",
-            "url": "www.newklio.com"
+            "url": "https://newklio.com"
         }
     ],
     "license": "MIT",
-    "homepage": "https://github.com/newklio/newklio-cloud.git",
+    "homepage": "https://newklio.com",
     "dependencies": {
         "bblanchon/ArduinoJson":"~6.17.3",
 	    "gilmaimon/ArduinoWebsockets":"~0.5.0"

@@ -3,14 +3,14 @@
 
 using namespace newklioEsp8266;
 
-String ssid = "HomeAP";       //router SSID
-String pass = "routerkiller"; // router password
+String ssid = "WIFI_SSID";   //router SSID
+String pass = "WIFI_PASSWD"; // router password
 
 //set authentication key find it in API section on Dashboard
-String key = "PC-PiNcIP7b9h8lCgrLs-DyS-ckkUlziiagVyBTe_nc";
+String key = "API_KEY";
 
 //set deviceID find it in devices section on dashboard
-String id = "f2crfn97";
+String id = "DEVICE_ID";
 
 //declare sources array (important Note: array should be a global variable)
 source Sources[1];
