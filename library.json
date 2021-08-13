@@ -1,6 +1,6 @@
 {
     "name": "newklio-library-esp",
-    "version": "2.1.2",
+    "version": "2.1.4",
     "description": "newklio-library-esp is designed to connect espresiff based devices to newklio cloud",
     "keywords": "esp8266, newklioEsp8266, ticker, wifiSetup, sources",
     "repository": {
@@ -22,10 +22,19 @@
     ],
     "license": "MIT",
     "homepage": "https://newklio.com",
-    "dependencies": {
-        "bblanchon/ArduinoJson":"~6.17.3",
-	    "gilmaimon/ArduinoWebsockets":"~0.5.0"
-    },
+    "dependencies": [
+        {
+            "owner": "bblanchon",
+            "name": "ArduinoJson",
+            "version": "6.17.3"
+        },
+        {
+            "owner": "gilmaimon",
+            "name": "ArduinoWebsockets",
+            "version": "0.5.0"
+        }
+    ],
+
     "frameworks": "arduino",
     "platforms": "espressif8266"
 }
