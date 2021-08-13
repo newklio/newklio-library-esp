@@ -6,7 +6,7 @@
 
 using namespace websockets;
 
-namespace whclient
+namespace newklioEsp8266
 {
 
     typedef double (*cb)(double value);

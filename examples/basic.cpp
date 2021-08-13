@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include <whclient.h>
+#include <newklioEsp8266.h>
 
-using namespace whclient;
+using namespace newklioEsp8266;
 
 String ssid = "HomeAP";       //router SSID
 String pass = "routerkiller"; // router password

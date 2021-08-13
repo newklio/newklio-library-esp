@@ -1,11 +1,11 @@
 #include <Arduino.h>
-#include <whclient.h>
-using namespace whclient;
+#include <newklioEsp8266.h>
+using namespace newklioEsp8266;
 
-String ssid = "HomeAP";
-String pass = "routerkiller";
-String key = "2AoARJLzvXeoU8FaQMY5orZ0371AjzNp5g6s3-Sgqgk";
-String id = "z97gl5b3";
+String ssid = "WIFI_SSID";
+String pass = "WIFI_PASSWD";
+String key = "API_KEY";
+String id = "DEVICE_ID";
 source sources[3];
 int LED = D5;
 int LDR = A0;
